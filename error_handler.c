@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 // Error Handler
 void Error_Handler(char str[] errorType) {
   switch (errorType) {
