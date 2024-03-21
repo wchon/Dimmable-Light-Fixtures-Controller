@@ -16,4 +16,5 @@
 ### Description
 This is a code test from Microlynx.
 
-<img loading="lazy" width="30px" src="./media/images/image_name.png" alt="image_name png" />
+### UART, SystemTick Diagram 
+<img loading="lazy" width="30px" src="https://github.com/wchon/coding_ex-Microlynx/blob/main/UART_SYSTEMTICK.jpg" alt="logical diagram jpg" />
