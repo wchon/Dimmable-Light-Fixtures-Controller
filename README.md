@@ -16,7 +16,7 @@
 ### Description
 This is a code test from Microlynx.
 
-### UART, SystemTick Diagram 
+### Simple Logic Diagram for UART, SystemTick 
 <div align="center">
   <img loading="lazy" width="500" src="https://github.com/wchon/coding_ex-Microlynx/blob/main/UART_SYSTEMTICK.jpg" alt="logical diagram jpg" />
 <div>
