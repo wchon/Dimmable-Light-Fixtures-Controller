@@ -95,8 +95,6 @@ void SystemTickIsr() {
       UartWriteByte(statusPacket.lightInstance);
       UartWriteByte(statusPacket.brightness);
     }
-
-    
   }
 }
 
@@ -122,14 +120,13 @@ void UartRxIsr() {
       // Start ramping to the target brightness
       targetBrightness = commandPacket.brightness;
       rampingInProgress = true;
+      // Disable Uart Rx Interrupt temporarily to avoid unnecessary bytes or spamming  
+      commandReceived = false;
+      InterruptDisable(UART_RX_INTERRUPT);
     }
     else {
       Error_Handler("checksum");
     }
-
-    // Disable Uart Rx Interrupt temporarily
-    commandReceived = false;
-    InterruptDisable(UART_RX_INTERRUPT);
   }
 }
 
