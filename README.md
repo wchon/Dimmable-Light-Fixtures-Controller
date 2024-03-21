@@ -17,4 +17,4 @@
 This is a code test from Microlynx.
 
 ### UART, SystemTick Diagram 
-<img loading="lazy" width="30px" src="https://github.com/wchon/coding_ex-Microlynx/blob/main/UART_SYSTEMTICK.jpg" alt="logical diagram jpg" />
+<img loading="lazy" width="500" align="center" src="https://github.com/wchon/coding_ex-Microlynx/blob/main/UART_SYSTEMTICK.jpg" alt="logical diagram jpg" />
