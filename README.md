@@ -11,10 +11,10 @@
   </a>
 </div>
 
-# coding_ex-Microlynx
+# Dimmable-Light-Fixtures-Controller
 
 ### Description
-This is a code test from Microlynx.
+This is prototype code I designed.
 
 ### Simple Logic Diagram for UART, SystemTick 
 <div align="center">
