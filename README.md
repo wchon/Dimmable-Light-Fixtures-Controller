@@ -14,7 +14,7 @@
 # Dimmable-Light-Fixtures-Controller
 
 ### Description
-This is prototype code I designed.
+This is prototyping code I designed.
 
 ### Simple Logic Diagram for UART, SystemTick 
 <div align="center">
